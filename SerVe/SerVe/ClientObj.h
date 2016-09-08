@@ -10,5 +10,5 @@
 #import "GCDAsyncSocket.h"
 @interface ClientObj : NSObject
 @property(nonatomic, strong)GCDAsyncSocket *scocket;
-@property(nonatomic, strong)NSDate *timeNew;
+@property(nonatomic, strong)NSDate *timeNew; //更新最新通讯时间
 @end
